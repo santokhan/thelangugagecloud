@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Santo
+/.vscode
+/gallary
+gallary.zip
+server.zip
+routes.php
+router.php
+index.php

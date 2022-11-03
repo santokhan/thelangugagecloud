@@ -1,0 +1,6 @@
+.nav-to:hover .nav-to:last-child {
+  width: 100%;
+  animation: underline 0.5s ease-out;
+}
+
+@keyframes underline {}

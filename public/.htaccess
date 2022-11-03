@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteRule ^about$ about.html
+RewriteRule ^pricing$ pricing.html
+RewriteRule ^contact$ contact.html
+RewriteRule ^courses$ courses.html
+RewriteRule ^language-camps$ language-camps.html
+RewriteRule ^language-clubs$ language-clubs.html
+RewriteRule ^features$ features.html
+RewriteRule ^gallary$ gallary.html
+RewriteRule ^blog$ blog.html
+
