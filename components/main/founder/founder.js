@@ -2,7 +2,7 @@ import JoinUs from "../../global/joinus";
 
 export default function Founder(props) {
   return (
-    <section className="bg-white pb-8 lg:pb-16">
+    <section className="bg-white py-8 lg:py-16">
       <div className="mx-auto max-w-7xl flex flex-wrap items-center">
         <div className="w-full xl:w-2/3 px-4 lg:px-6 py-10">
           <div className="text-center mb-8 lg:mb-12">

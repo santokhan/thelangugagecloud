@@ -1,6 +1,6 @@
 <svg id="demo" xmlns="http://www.w3.org/2000/svg" width="1500" height="750" viewBox="0 0 1500 750" style="opacity: 1; visibility: inherit; transform-origin: 50% 50%; transform: translate(-50%, 0%); height: 636px; width: 1262px;">
   <title>Handwriting With DrawSVG Demo</title>
-  <g class="theWords" stroke-linejoin="round">
+  <g className="theWords" stroke-linejoin="round">
     <g id="background">
       <rect id="bgBase" width="1500" height="750" rx="10" ry="10"></rect>
       <rect id="bg" x="10" y="10" width="1480" height="730" rx="8" ry="8" fill="#2b2728"></rect>

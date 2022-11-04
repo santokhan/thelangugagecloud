@@ -8,11 +8,11 @@ import Gallery from "./gallary/gallary";
 export default function Main(props) {
   return (
     <main>
-      <Benefit></Benefit>
+      {/* <Benefit></Benefit> */}
       <Founder></Founder>
       <Courses></Courses>
-      <Clubs></Clubs>
-      <Camp></Camp>
+      {/* <Clubs></Clubs> */}
+      {/* <Camp></Camp> */}
       <Gallery></Gallery>
     </main>
   );

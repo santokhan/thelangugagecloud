@@ -1,5 +1,5 @@
+import Link from "next/link";
 import DarkButtonLink from "../../../global/darkbuttonlink";
-import DNavItem from "./navitem";
 
 export default function DropdownMenu(props) {
   return (
@@ -14,6 +14,19 @@ export default function DropdownMenu(props) {
           <DarkButtonLink name="CONTACT NOW" to="contact" />
         </div>
       </nav>
+    </div>
+  );
+}
+export function DNavItem(props) {
+  return (
+    <div className="px-5 py-2">
+      <Link
+        className="uppercase group flex flex-col items-start"
+        href={props.to}
+      >
+        <div className="whitespace-nowrap">{props.name}</div>
+        {/* <div className="h-[2px] bg-slate-800 w-0 group-hover:w-auto"></div> */}
+      </Link>
     </div>
   );
 }

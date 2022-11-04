@@ -3,7 +3,7 @@ import DarkButtonLink from "../../global/darkbuttonlink";
 
 export default function Gallery() {
   return (
-    <section className="overflow-hidden text-gray-700 bg-white py-[5rem]">
+    <section className="overflow-hidden text-gray-700 bg-white pt-[4rem]">
       <div className="text-4xl tracking-tight font-bold text-gray-900 text-center">
         Gallary
       </div>
@@ -14,7 +14,7 @@ export default function Gallery() {
               <img
                 alt="gallery"
                 className="block object-cover object-center w-full h-full rounded-lg"
-                src="https://www.thelanguagecloud-edu.com/image/English French   Online  oreschool-primary course for kids.jpg"
+                src="https://www.thelanguagecloud-edu.com/image/English-French-Online-oreschool-primary-course-for-kids.jpg"
               />
             </div>
           </div>
